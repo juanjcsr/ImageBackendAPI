@@ -1,9 +1,9 @@
 package routers
 
 import (
-	"api.jwt.auth/controllers"
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
+	"jezz.api.mobile/controllers"
 )
 
 func SetHelloRoutes(router *mux.Router) *mux.Router {
